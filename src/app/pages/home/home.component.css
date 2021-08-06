@@ -18,7 +18,7 @@
 
 #landing-left {
     display: flex;
-    color: white;
+    color: black;
     justify-content: center; 
     align-items: center; 
 
@@ -27,7 +27,6 @@
 #landing-left-content{
     text-align: right;
     padding: 1em 1em 1em 3em;
-
 }
 
 #landing-left-content h1{
