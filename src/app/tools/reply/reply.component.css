@@ -28,3 +28,27 @@ input {
     -webkit-box-sizing: border-box;
     direction: ltr;
 }
+
+.comment-container{
+    display: flex;
+}
+
+.comment-name{
+    font-size: 1em;
+}
+
+.comment{
+    border-radius: 1em;
+    background-color: gainsboro;
+    padding: 1em;
+}
+
+.creator-comment-container{
+    justify-content: flex-end ;
+    text-align: end;
+}
+
+.creator-comment{
+    background-color: tomato;
+    color: white;
+}

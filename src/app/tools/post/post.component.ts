@@ -21,7 +21,7 @@ export class PostComponent implements OnInit {
   }
 
   onCommentClick(){
-    this.dialog.open(ReplyComponent);
+    this.dialog.open(ReplyComponent,{data:this.postData.postID});
   }
 
   getCreatorInfo(){
